@@ -1,0 +1,60 @@
+<html>
+    <h1>
+        Welcome To Registration Page
+    </h1>
+
+    <style>
+body{
+
+    background-image: url(../static/Health-Insurance-Quotes.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    float:right
+}
+
+    </style>
+
+
+
+<body>
+<a href="/aboutlink">About Us</a><br>
+
+<a href="/reglink">Register</a><br>
+
+<a href="/loginlink">Login </a><br>
+
+<a href="/logoutlink">Logout </a><br>
+
+<a href="/informationlink">Information </a><br>
+
+<a href="/displaylink">Display</a>
+
+<br>
+<br>
+<br>
+
+<div> 
+<fieldset>
+<form action="/savelink2" method="POST">  
+        Enter Name:
+        <input type="text" name="name" required><br><br><br><br>
+        Enter Password:
+        <input type="password" name="password" required><br><br><br><br>
+        Enter Age:
+        <input type="number" name="Age" required><br><br><br><br>
+        Enter MobileNumber:
+        <input type="number" name="MobileNumber" required><br><br><br><br>
+        Enter Email:
+        <input type="text" name="email" required><br><br><br><br>
+    
+        <button type="submit">save</button>
+        <button type="submit">back</button>
+        <a href="/">Go to Home Page</a><br>
+        <p>Please login to view plan</p>
+</form>
+</fieldset>
+
+</div>
+    </body>
+</html>
